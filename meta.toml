@@ -1,0 +1,15 @@
+title = 'meta-toml'
+description = 'instructions for using `meta.toml` file'
+type = 'code'
+tags = [ 'meta-information', 'project-management' ]
+license = 'MIT'
+
+
+[mirrors]
+github = 'https://github.com/dym-sh/meta-toml'
+gitlab = 'https://gitlab.com/dym-sh/meta-toml'
+source = 'https://source.garden/dym-sh/meta-toml'
+
+
+[cross-posts]
+_canonical = 'https://dym.sh/meta-toml'
