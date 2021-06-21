@@ -7,33 +7,33 @@
 - keep track of the state of projects
 
 
-# 🌈✨🌠🌟 [work in progress] details to change 🌟🌠✨🌈
+🌈✨🌠🌟 [work in progress] details to change 🌟🌠✨🌈
+
 
 
 ## generalized examples
 
 ### code
 ```toml
-title = 'IndieWeb profile'
-slug = 'profile-indieweb'
-description = 'plans and other info about my personal website'
+title = 'coding profile'
+slug = 'profile-code'
+description = 'extended bio for coding profile'
 type = 'code'
 tags = [ 'about-me', 'profile' ]
 license = 'MIT'
+homepage = 'https://dym.sh/profile-code'
 
 [data]
-raw = './profile.wiki'
-
-[sync]
-indieweb = 'https://indieweb.org/User:Dym.sh'
+raw = './readme.md'
 
 [mirrors]
-github = 'https://github.com/dym-sh/profile-indieweb'
-gitlab = 'https://gitlab.com/dym-sh/profile-indieweb'
-source = 'https://source.garden/dym-sh/profile-indieweb'
+github = 'https://github.com/dym-sh/dym-sh'
+gitlab = 'https://gitlab.com/dym-sh/dym-sh'
+codepen = 'https://codepen.io/dym-sh/pen/zYZjozZ/left/?editors=1000'
+source = 'https://source.garden/dym-sh'
 
-[cross-posts]
-_canonical = 'https://dym.sh/profile-indieweb'
+[log]
+created = 2020-11-22
 ```
 
 ### graphics
@@ -43,15 +43,13 @@ description = '[injects one mirror-selfie in a NASA shirt]'
 type = 'graphics'
 tags = [ 'logo', 'remix' ]
 license = 'CC-BY'
-
+homepage = 'https://dym.sh/asian-nasa'
 
 [sources-files]
 figma_online = 'https://figma.com/file/UZbwZKpkPZTi2HpIsXoCjW'
 figma_local = './src/asian-nasa.fig'
 
-
 [cross-posts]
-_canonical = 'https://dym.sh/asian-nasa'
 reddit = 'https://reddit.com/r/dym_sh/comments/nv1mzc'
 twitter = 'https://twitter.com/dym_sh/status/1402223317449388033'
 instagram = 'https://www.instagram.com/p/CP221EjHLRZ/'
@@ -78,9 +76,12 @@ published = 2021-06-08
 title = 'hello'
 type = 'note'
 tags = [ 'sh', 'code' ]
+homepage = 'https://dym.sh/hello'
+
+[data]
+raw = './readme.md'
 
 [cross-posts]
-_canonical = 'https://dym.sh/hello'
 twitter = 'https://twitter.com/dym_sh/status/1405144126081933316'
 
 [log]
@@ -90,10 +91,5 @@ updated = 2021-06-16
 
 
 ## tooling
-[TBD]
-
-
-## mirrors
-- https://github.com/dym-sh/meta-toml
-- https://gitlab.com/dym-sh/meta-toml
-- https://source.garden/dym-sh/meta-toml
+- [inventory](https://github.com/dym-sh/inventory)
+- [unfolder](https://github.com/dym-sh/unfolder)
