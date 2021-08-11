@@ -1,1 +1,37 @@
-../../asian-nasa/meta.toml
+title = 'Asian Nasa'
+slug = 'asian-nasa'
+description = '[injects one mirror-selfie in a NASA shirt]'
+media-type = 'graphics'
+category = 'identity'
+tags = [ 'logo', 'parody' ]
+license = 'CC-BY'
+homepage = 'https://dym.sh/asian-nasa'
+
+
+[source]
+figma-online = 'https://figma.com/community/file/1004406910324312767'
+figma-offline = './src/asian-nasa.fig'
+
+
+[cross-posts]
+reddit = 'https://reddit.com/r/dym_sh/comments/nv1mzc'
+twitter = 'https://twitter.com/dym_sh/status/1402223317449388033'
+instagram = 'https://instagram.com/p/CP221EjHLRZ'
+dribbble = 'https://dribbble.com/shots/16169327'
+
+
+[[references]]
+type = 'inspiration'
+description = 'mirrored NASA t-shirt'
+url = 'https://reddit.com/r/intermittentfasting/comments/nur2pt'
+local = './ref/mirror-selfie.jpg'
+
+[[references]]
+type = 'original'
+description = 'nasa meatball'
+url = 'https://commons.wikimedia.org/wiki/File:NASA_logo.svg'
+local = './ref/nasa-logo.svg'
+
+
+[log]
+created = 2021-06-08

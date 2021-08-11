@@ -1,1 +1,39 @@
-../../coding-profile/meta.toml
+title = 'Coding Profile'
+slug = 'coding-profile'
+description = 'extended bio for coding profile'
+media-type = 'code'
+category = 'about'
+tags = [ 'self', 'resume' ]
+license = 'MIT'
+homepage = 'https://dym.sh/coding-profile'
+source = 'https://source.garden/coding-profile'
+
+
+[mirrors]
+github = 'https://github.com/dym-sh/dym-sh'
+gitlab = 'https://gitlab.com/dym-sh/dym-sh'
+
+
+[[data]]
+type = 'markdown'
+raw = './readme.md'
+
+[[data]]
+type = 'plaintext'
+raw = './plain.txt'
+
+
+[[sync]]
+name = 'codepen'
+url = 'https://codepen.io/dym-sh/pen/zYZjozZ/left/?editors=1000'
+data = 'markdown'
+
+[[sync]]
+name = 'hashnode'
+url = 'https://hashnode.com/@dym_sh'
+data = 'plaintext'
+
+
+[log]
+init = 2021-06-05
+updated = 2021-08-04

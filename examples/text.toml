@@ -1,1 +1,19 @@
-../../hello/meta.toml
+title = 'hello'
+media-type = 'text'
+category = 'note'
+tags = [ 'bash', 'code' ]
+license = 'CC-BY'
+homepage = 'https://dym.sh/hello'
+
+
+[data]
+type = 'markdown'
+raw = './readme.md'
+
+
+[cross-posts]
+twitter = 'https://twitter.com/dym_sh/status/1405144126081933316'
+
+
+[log]
+published = 2021-06-16
