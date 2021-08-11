@@ -1,14 +1,17 @@
 title = 'meta-toml'
 description = 'instructions for using `meta.toml` file'
-type = 'code'
-tags = [ 'meta-information', 'project-management' ]
+media-type = 'code'
+category = 'project-management'
+tags = [ 'meta-information', 'files' ]
 license = 'MIT'
 homepage = 'https://dym.sh/meta-toml'
+source = 'https://source.garden/meta-toml'
+
 
 [mirrors]
 github = 'https://github.com/dym-sh/meta-toml'
 gitlab = 'https://gitlab.com/dym-sh/meta-toml'
-source = 'https://source.garden/meta-toml'
+
 
 [log]
-created = 2021-06-20
+init = 2021-06-20
